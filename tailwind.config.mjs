@@ -31,7 +31,7 @@ export default {
 			'scroll-hover': 'hsl(0, 0%, 35%);',
 		  },		  
 		fontFamily: {
-			'sans': ['Poppins', 'sans-serif'],
+			sans: ['var(--font-poppins)'],
 		},
 		extend: {	
 		  borderRadius: {
@@ -39,5 +39,4 @@ export default {
 		  },
 		}
 	  },
-	plugins: [],
 }
